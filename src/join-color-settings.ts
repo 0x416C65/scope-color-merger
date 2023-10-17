@@ -5,17 +5,19 @@ type ColorSetting = {
   };
 };
 
-function hasSameSettings(
+const hasSameSettings = (
   firstSetting: ColorSetting,
   secondSetting: ColorSetting
-): boolean {
+): boolean => {
   return (
     JSON.stringify(firstSetting.settings) ===
     JSON.stringify(secondSetting.settings)
   );
-}
+};
 
-function joinColorSettings(colorSettings: ColorSetting[]): ColorSetting[] {
+export const joinColorSettings = (
+  colorSettings: ColorSetting[]
+): ColorSetting[] => {
   return colorSettings.reduce((acc: ColorSetting[], cur: ColorSetting) => {
     const found = acc.find(el => hasSameSettings(el, cur));
 
@@ -27,6 +29,4 @@ function joinColorSettings(colorSettings: ColorSetting[]): ColorSetting[] {
 
     return acc;
   }, []);
-}
-
-export { joinColorSettings };
+};

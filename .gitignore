@@ -1,3 +1,3 @@
 /tmp
-/src/json/*.json
-node_modules
+/src/json
+/node_modules

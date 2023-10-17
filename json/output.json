@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Comment",
+    "scope": [
+      "comment",
+      "string.comment"
+    ],
+    "settings": {
+      "foreground": "#444444ff"
+    }
+  },
+  {
+    "name": "String",
+    "scope": [
+      "string",
+      "string.template.js",
+      "variable.parameter.js",
+      "storage",
+      "source.json meta.structure.dictionary.json support.type.property-name.json",
+      "support.constant.css",
+      "support.constant.scss",
+      "support.constant.less",
+      "support.constant.sass",
+      "unit.css",
+      "unit.scss",
+      "unit.less",
+      "unit.sass",
+      "keyword.other.unit.percentage.css",
+      "constant.numeric.css",
+      "keyword.other.unit.px.css",
+      "keyword.other.unit.em.css",
+      "keyword.other.unit.rem.css",
+      "markup.inserted",
+      "markup.changed",
+      "entity.name.filename.find-in-files",
+      "markup.normal, markup.normal.markdown",
+      "keyword.operator.other.elixir",
+      "variable.other.constant.elixir",
+      "source.elixir entity.name.function",
+      "variable.other.constant.elixir"
+    ],
+    "settings": {
+      "foreground": "#64c68bff"
+    }
+  },
+  {
+    "name": "js template-expression",
+    "scope": [
+      "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "variable.readwrite",
+      "variable.readwrite.other.block",
+      "support.dictionary.json",
+      "markup.deleted"
+    ],
+    "settings": {
+      "foreground": "#cd5353ff"
+    }
+  },
+  {
+    "name": "TemplateString",
+    "scope": [
+      "meta.template.expression.js",
+      "variable.other.object.js",
+      "meta.function-call.js",
+      "meta.object-literal.key.js",
+      "meta.tag.attributes.js",
+      "variable.other.readwrite.js",
+      "variable.other.readwrite.jsx",
+      "variable.other.readwrite.tsx",
+      "entity.name.variable",
+      "entity.name.variable.local",
+      "meta.object-literal.key",
+      "variable.object.constant",
+      "variable.object.property",
+      "variable.other.alias",
+      "variable.other.constant",
+      "variable.other.object",
+      "variable.other.property",
+      "variable.other.readwrite",
+      "variable.parameter",
+      "support.variable",
+      "keyword.other.base",
+      "keyword.other.this",
+      "variable.other.object.property",
+      "variable.language.base",
+      "variable.language.this",
+      "support.variable.UnityEngine",
+      "entity.name.function-call",
+      "source.json string.quoted.double.json",
+      "keyword.operator.assignment.python"
+    ],
+    "settings": {
+      "foreground": "#eeeeeeff"
+    }
+  },
+  {
+    "name": "Number",
+    "scope": [
+      "constant.numeric",
+      "string.embedded.begin",
+      "string.embedded.end",
+      "constant.language",
+      "constant.character",
+      "constant.other",
+      "variable.language",
+      "support.constant",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "markup.underline.link.markdown",
+      "keyword.control.svelte"
+    ],
+    "settings": {
+      "foreground": "#a187d9ff"
+    }
+  },
+  {
+    "name": "Embeded String",
+    "scope": [
+      "string.embedded",
+      "entity.other.inherited-class",
+      "entity.name.function",
+      "support.function",
+      "function.support.builtin",
+      "function.support.core",
+      "entity.other.attribute-name",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "entity.other.attribute-name.class.css",
+      "entity.other.attribute-name.id.css",
+      "punctuation.section.property-list.begin.bracket.curly.css",
+      "function.css",
+      "function.scss",
+      "function.less",
+      "function.sass",
+      "markup.quote.markdown",
+      "meta.function-call.generic.python",
+      "meta.function-call.python",
+      "meta.function-call.arguments.python",
+      "meta.function-call.python"
+    ],
+    "settings": {
+      "foreground": "#ddd14eff"
+    }
+  },
+  {
+    "name": "Keyword",
+    "scope": [
+      "keyword",
+      "keyword.operator",
+      "keyword.operator.logical",
+      "keyword.operator.constructor",
+      "storage.modifier.async.js",
+      "keyword.control.flow.js",
+      "variable.css.string",
+      "variable.scss.string",
+      "variable.less.string",
+      "variable.sass.string",
+      "support.constant.property-value.css",
+      "constant.numeric.css",
+      "constant.numeric.scss",
+      "constant.numeric.less",
+      "constant.numeric.sass",
+      "parameter.variable.function.elixir"
+    ],
+    "settings": {
+      "foreground": "#ffc83aff"
+    }
+  },
+  {
+    "name": "Storage type",
+    "scope": [
+      "storage.type",
+      "entity.name.tag",
+      "entity.name.tag.class.js",
+      "entity.name.tag.class.jsx",
+      "entity.name.tag.class",
+      "entity.name.tag.id",
+      "support.type",
+      "support.variable",
+      "source.json meta.structure.dictionary.json string.quoted.double.json punctuation.definition.string",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "variable.css",
+      "variable.scss",
+      "variable.less",
+      "variable.sass",
+      "entity.name.tag.css",
+      "fenced_code.block.language.markdown",
+      "keyword.control"
+    ],
+    "settings": {
+      "foreground": "#dc639fff"
+    }
+  },
+  {
+    "name": "Class name",
+    "scope": [
+      "entity.name.class",
+      "entity.name.module",
+      "entity.name.type",
+      "storage.identifier",
+      "support.class",
+      "variable.other.property",
+      "variable.other.block",
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "support.type.property-name.css",
+      "support.type.property-name.scss",
+      "support.type.property-name.less",
+      "support.type.property-name.sass",
+      "entity.name.tag.css",
+      "string.detected-link",
+      "meta.diff",
+      "meta.diff.header",
+      "constant.numeric.line-number.find-in-files - match",
+      "markup.raw.inline.markdown",
+      "markup.raw.block.markdown",
+      "markup.inline.raw.string.markdown",
+      "string.other.link.title.markdown",
+      "constant.other.symbol.elixir",
+      "source.elixir variable.other.readwrite.module.elixir",
+      "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
+      "source.elixir.punctuation.binary.elixir"
+    ],
+    "settings": {
+      "foreground": "#5ac0e4ff"
+    }
+  },
+  {
+    "name": "Function argument",
+    "scope": [
+      "variable.parameter"
+    ],
+    "settings": {
+      "fontStyle": "",
+      "foreground": "#dc639fff"
+    }
+  },
+  {
+    "name": "Library variable",
+    "scope": [
+      "support.other.variable"
+    ],
+    "settings": {
+      "fontStyle": "",
+      "foreground": "#5ac0e4ff"
+    }
+  },
+  {
+    "name": "Invalid",
+    "scope": [
+      "invalid",
+      "invalid.deprecated"
+    ],
+    "settings": {
+      "foreground": "#f8f8f8ff"
+    }
+  },
+  {
+    "name": "Markup: Emphasis Punctuation",
+    "scope": [
+      "punctuation.definition.normal.markdown",
+      "punctuation.definition.bold.markdown"
+    ],
+    "settings": {
+      "fontStyle": "",
+      "foreground": "#ffffff60"
+    }
+  },
+  {
+    "name": "Markdown: Bold",
+    "scope": [
+      "markup.bold.markdown"
+    ],
+    "settings": {
+      "fontStyle": "bold"
+    }
+  },
+  {
+    "name": "Markdown: Heading",
+    "scope": [
+      "markup.heading.markdown",
+      "entity.name.section.markdown"
+    ],
+    "settings": {
+      "fontStyle": "bold",
+      "foreground": "#ddd14eff"
+    }
+  },
+  {
+    "name": "Markdown: Heading",
+    "scope": [
+      "punctuation.definition.heading.markdown"
+    ],
+    "settings": {
+      "fontStyle": "",
+      "foreground": "#64c68bff"
+    }
+  },
+  {
+    "name": "Markdown: Separator",
+    "scope": [
+      "meta.separator.markdown"
+    ],
+    "settings": {
+      "foreground": "#cd5353ff",
+      "fontStyle": "bold"
+    }
+  },
+  {
+    "name": "Markdown: List Punctuation",
+    "scope": [
+      "punctuation.definition.list_item.markdown"
+    ],
+    "settings": {
+      "fontStyle": "bold",
+      "foreground": "#f8f8f8ff"
+    }
+  }
+]

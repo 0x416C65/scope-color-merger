@@ -1,9 +1,10 @@
-import path from 'path';
-import inputObj from './json/input.json';
-import { getDirectoryPath } from './utils';
-import { saveJsonToFile } from './fileOperations';
-import { joinColorSettings } from './joinColorSettings';
+import inputObj from '../json/input.json';
+import { saveJsonToFile } from './file-operations';
+import { joinColorSettings } from './join-color-settings';
 
-const outputJson = joinColorSettings(inputObj as []);
-const directoryPath = getDirectoryPath(import.meta.url);
-saveJsonToFile(path.join(directoryPath, './json/output.json'), outputJson);
+const bootstrap = () => {
+  const outputJson = joinColorSettings(inputObj as unknown as []);
+  saveJsonToFile('./json/output.json', outputJson);
+};
+
+bootstrap();
